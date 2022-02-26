@@ -1,0 +1,22 @@
+{
+  "name": "@endyjasmi/karma-playwright-launcher",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "main": "./source/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js ./source"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "playwright": "^1.19.2",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "playwright": "1.x"
+  }
+}

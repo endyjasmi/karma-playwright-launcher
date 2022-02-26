@@ -1,6 +1,27 @@
 {
   "name": "@endyjasmi/karma-playwright-launcher",
-  "version": "0.0.1",
+  "description": "Karma launcher for Playwright's bundled browsers.",
+  "version": "0.0.2",
+  "license": "MIT",
+  "keywords": [
+    "karma-launcher"
+  ],
+  "author": {
+    "email": "endyjasmi@gmail.com",
+    "name": "Endy Jasmi"
+  },
+  "homepage": "https://github.com/endyjasmi/karma-playwright-launcher#readme",
+  "bugs": {
+    "url": "https://github.com/endyjasmi/karma-playwright-launcher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endyjasmi/karma-playwright-launcher.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/endyjasmi"
+  },
   "type": "commonjs",
   "main": "./source/index.js",
   "scripts": {

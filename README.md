@@ -1,6 +1,28 @@
 # Karma Playwright Launcher
 
-Karma launcher capable of running Chrome, Firefox and WebKit using [Playwright's](https://playwright.dev/) bundled browsers.
+Karma launcher for Playwright's bundled browsers. The advantage of using playwright's bundled browser as launcher is it provide test consistency across different environment.
+
+## 🤔 Tutorial
+
+1. First you will need to install this plugin.
+
+```
+npm install --save-dev @endyjasmi/karma-playwright-launcher
+```
+
+2. After that, you will need to configure the plugin inside `karma.conf.js`.
+
+```js
+module.exports = function (config) {
+  config.set({
+    browsers: ["Chromium", "Firefox", "WebKit"],
+    plugins: ["@endyjasmi/karma-playwright-launcher", "karma-*"],
+    ...otherConfig,
+  });
+};
+```
+
+3. You are done! Your karma should launch test using Playwright's bundled browser.
 
 ## ⚖️ License
 

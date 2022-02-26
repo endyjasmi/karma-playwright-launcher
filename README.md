@@ -7,7 +7,7 @@ Karma launcher for Playwright's bundled browsers. The advantage of using playwri
 1. First you will need to install this plugin.
 
 ```
-npm install --save-dev @endyjasmi/karma-playwright-launcher
+npm install --save-dev @endyjasmi/karma-playwright-launcher playwright
 ```
 
 2. After that, you will need to configure the plugin inside `karma.conf.js`.

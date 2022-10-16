@@ -1,7 +1,7 @@
 {
   "name": "@endyjasmi/karma-playwright-launcher",
   "description": "Karma launcher for Playwright's bundled browsers.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "keywords": [
     "karma-launcher"

@@ -15,7 +15,7 @@ npm install --save-dev @endyjasmi/karma-playwright-launcher playwright
 ```js
 module.exports = function (config) {
   config.set({
-    browsers: ["Chromium", "Firefox", "WebKit"],
+    browsers: ["Chromium", "ChromiumHeadless", "Firefox", "FirefoxHeadless", "WebKit", "WebKitHeadless"],
     plugins: ["@endyjasmi/karma-playwright-launcher", "karma-*"],
     ...otherConfig,
   });
